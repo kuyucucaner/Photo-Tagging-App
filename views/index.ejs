@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Tagging App</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+
+</head>
+
+<body>
+    <div>
+        <h1 id="title">Photo Tagging App</h1>
+        <div id="characterDropdown" class="dropdown">
+            <div class="dropdown-content" id="characterOptions">
+                <button class="characterButton" onclick="submitTags(this.innerText)">Fire Mario</button><br>
+                <button class="characterButton" onclick="submitTags(this.innerText)">King Boo</button><br>
+                <button class="characterButton" onclick="submitTags(this.innerText)">Waluigi</button><br>
+            </div>
+            <button class="submitButton">Characters</button>
+        </div>
+        <div id="photoContainer">
+            <img src="images/super-mario-bros.webp" alt="Photo" id="photo" onclick="handlePhotoClick(event)">
+            <div id="targetBox"></div>
+        </div>
+    </div>
+    <script src="javascripts/script.js"></script>
+</body>
+
+</html>

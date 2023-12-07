@@ -1,0 +1,72 @@
+img {
+  border : 3px solid black
+}
+body {
+  background-color: #333;
+  color: white;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #aaaaaa; /* Beyaz arkaplan rengi */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif bir gölge efekti */
+  border-radius: 8px; /* Yuvarlatılmış köşeler */
+  padding: 10px;
+  z-index: 1;
+  margin-top:40px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.submitButton {
+  padding: 10px 15px;
+  border: 2px solid #333; /* Border rengi */
+  border-radius: 20px;
+  background-color: #333; /* Arkaplan rengi */
+  color: #fff; /* Yazı rengi */
+  cursor: default; /* Cursor'ı gösterici yapmak için */
+}
+#characterDropdown {
+position: absolute;
+display: none;
+z-index: 2; /* İstediğiniz değeri ayarlayabilirsiniz */
+}
+.characterButton:hover{
+  background-color: #7a7a7a;
+}
+.characterButton{
+  margin-bottom: 5px; /* Butonlar arasında boşluk bırakmak için */
+  background-color: #ffffff; /* Buton arkaplan rengi */
+  border: 1px solid #ccc; /* Buton border rengi */
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+}
+#title {
+  background-color: #333;
+  color: white;
+  margin-left:40%;    
+}
+#photoContainer {
+  position: relative;
+  /* İlgili stil eklenmiş bir öğe için gereklidir */
+}
+#targetBox {
+  position: absolute;
+  border: 3px dotted red;
+  display: none;
+  border-radius: 35px;
+  background-color: rgb(0, 0, 0 , 0.3);
+}
+#photo {
+  width: 100%;
+  height: auto;
+  position: relative;
+  cursor: crosshair;
+}
