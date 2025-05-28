@@ -1,6 +1,6 @@
 # 🖼️ Photo Tagging App
 
-**Photo Tagging App** is an interactive game-like application where users are presented with an image and must identify and tag 3 characters correctly. When a user clicks on a location in the image, a dropdown appears to choose one of the characters. Based on internal coordinate logic, the app notifies the user whether their selection is correct.
+**Photo Tagging App** is an interactive game-like application where users are presented with an image and must identify and tag 3 characters correctly. When a user clicks on a location in the image, a dropdown appears to choose one of the characters. Based on internal coordinate logic, the app notifies the user whether their selection is correct. 
 
 ---
 
